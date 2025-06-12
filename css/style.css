@@ -2,8 +2,7 @@
     width:auto; 
     height:auto;
     display: flex;
-    gap: 10px;
-    margin-top: 150px;
+    gap: 5px;
     margin-left:220px ;
 }
 .top{
@@ -91,6 +90,7 @@ h1{
     padding-top: 70px;
     font-family: "Inter", sans-serif;
     transition: transform  0.2s ease;
+    color: black;
 }
 .card1:hover {
     transform: translateY(-10px);
@@ -126,13 +126,25 @@ p {
 body{
     background-color: 	#e3e6e7;
 }
+a {
+  text-decoration: none;
+}
 @media(max-width:600px){
 .cards{
     flex-direction: column;
     margin-left: 10px;
+    gap: 0px;
+    margin-bottom: 40px;
 }
 .card1{
-    width: 402px;             
-    height: 339px;
+    height: 130px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+   font-size: 40px;
+   padding-top: 35px;
 }
 }
