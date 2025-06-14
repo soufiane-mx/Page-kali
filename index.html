@@ -8,7 +8,9 @@
     <title>Page Kali</title>
 </head>
 <body>
+
     <section class="cards">
+        <span class="span1">VZ.ma</span>
         <a href="https://www.kali.org/get-kali/#kali-installer-images" class="card1" id="card1">
             <div class="top">
                 <div class="wrap">
@@ -21,6 +23,7 @@
                 <p>https://vl-company-internal-xyz1234.com/dashboard/overview/settings/profile</p>
             </div>
         </a>
+        <span class="span2">VZ.ma</span>
         <a href="https://www.kali.org/get-kali/#kali-installer-images" class="card1" id="card2">
             <div class="top">
                 <div class="wrap">
@@ -34,5 +37,24 @@
             </div>
         </a>
     </section>
+<script>
+const card1 = document.getElementById('card1');
+const span1 = document.querySelector('.span1');
+const card2 = document.getElementById('card2');
+const span2 = document.querySelectorAll('.span2')[0];
+card1.addEventListener('mouseenter', () => {
+    span1.classList.add('visible');
+});
+card1.addEventListener('mouseleave', () => {
+    span1.classList.remove('visible');
+});
+card2.addEventListener('mouseenter', () => {
+    span2.classList.add('visible');
+});
+card2.addEventListener('mouseleave', () => {
+    span2.classList.remove('visible');
+});
+
+</script>
 </body>
 </html>
