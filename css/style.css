@@ -192,36 +192,19 @@ a {
     pointer-events: auto;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 600px){
     .cards {
         flex-direction: column;
         margin: 0 auto;
-        gap: 10px;
+        gap: 30px;
+    }
+    .span1,.span2,.bottom{
+        display: none;
+    }
+    .top{
+        height: 100px;
     }
     .card1 {
-        height: 120px;
         margin: 10px auto;
     }
     img, .wrap img {
