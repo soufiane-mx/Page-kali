@@ -140,11 +140,13 @@ a {
 }
 .span1 {
     position: fixed; 
-    margin-top: 90px;
-    margin-right: 46px;  
+    margin-top: 65px;
+    margin-left: -18px;  
     font-family: "Inter", sans-serif; 
-    font-size: 18px; 
-    width: 70px;
+    font-size: 30px; 
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
     background-color: #367BF0;
     color: white;
     border: 2px solid #367BF0;
@@ -166,13 +168,15 @@ a {
 }
 .span2 {
     position: fixed; 
-    margin-left: 1000px;  
-    margin-top: 84px;
+    margin-left: 1025px;  
+    margin-top: 65px;
     font-family: "Inter", sans-serif; 
-    font-size: 18px; 
-    width: 70px;
+    font-size: 30px; 
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
     background-color: #367BF0;
-    color: white;
+    color: #ccebff;
     border: 2px solid #367BF0;
     border-top-left-radius: 0;
     border-top-right-radius: 20px;
@@ -203,6 +207,7 @@ h1 p{
     border-bottom-left-radius: 20px;
     color: #ccebff;
 }
+
 /*.card1:hover .card1{
    border-color: #367BF0;
 }*/
