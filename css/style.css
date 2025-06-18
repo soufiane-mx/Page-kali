@@ -252,16 +252,16 @@ h1 p{
         display: none;
     }
     img{
-         width: 100%;
+        width: 100%;
         height: auto;
     }
     h1{
         font-size: 23px;
     }
 }
-@media(max-width: 1000px){
+@media(max-width: 1181px){
     .cards{
-        gap: 20px;
+        gap: 10px;
     }
     .span1,.span2{
         display: none;
@@ -269,5 +269,12 @@ h1 p{
     img{
         width: 100%;
         height: auto;
+    }
+    .card1:hover h1 p {
+        all: unset;
+    }
+
+    .card1:hover h1 .title2 {
+        all: unset;
     }
 }
