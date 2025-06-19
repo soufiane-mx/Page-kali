@@ -232,7 +232,7 @@ h1 p{
         margin: 10px auto;
     }
     img, .wrap img {
-        width: 100%;
+        width: 100px;
         height: auto;
     }
     h1 {
@@ -240,16 +240,17 @@ h1 p{
         padding-top: 20px;
         font-size: 30px;
         text-align: center;
+        margin-left: -40px;
     }
     .span1,.span2{
         display: none;
     }
 }
-@media(max-width: 800px){
+@media(min-width: 600px) and (max-width: 800px){
     .cards{
         gap: 20px;
     }
-    .span1{
+    .span1,.span2{
         display: none;
     }
     img{
@@ -259,8 +260,14 @@ h1 p{
     h1{
         font-size: 24px;
     }
-}
-@media(max-width: 1181px){
+      .card1:hover h1 p {
+        all: unset;
+    }
+    .card1:hover h1 .title2 {
+        all: unset;
+    }
+} 
+@media(min-width: 801px) and (max-width: 1120px){
     .cards{
         gap: 10px;
     }
@@ -271,10 +278,9 @@ h1 p{
         width: 100%;
         height: auto;
     }
-    .card1:hover h1 p {
+      .card1:hover h1 p {
         all: unset;
     }
-
     .card1:hover h1 .title2 {
         all: unset;
     }
